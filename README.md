@@ -36,7 +36,8 @@
   * **getCustomConfigFile**  Script encargado de decidir cual es el archivo de configuracion del portal de soporte. Se modifica
   * **FiberHome** Se crea el archivo que contiene la configuracion para este modelo. Aca se cambia los parametros TR para el dispositivo
 
-### **Custom Match** En estos se encuentran los scripts que le dicen al diagnose params si la opcion se debe mostrar para ese dispositivo. /live/AXSupportPortal/Configuration/CustomMatch/
+### **Custom Match**
+En estos se encuentran los scripts que le dicen al diagnose params si la opcion se debe mostrar para ese dispositivo. /live/AXSupportPortal/Configuration/CustomMatch/
 
 * match_fiberHome ➪ Nuevo
 * match_vlan_1 ➪ modificado
@@ -91,16 +92,9 @@
 	* **Solicitar un PING a Internet** Escenario estandar no hubo la necesidad de modificar script
 	* **Cambiar configuracion WLAN** N/A
   * **Configuracion de  Puertos LAN**: N/A
-  
-Por revisar
- 
-	* **Visualizar servicio de puertos LAN y Configuracion de puertos LAN**  Pendiente de tigo une valide que parametros TR se deben configurar
-	/live/CPEManager/Scenarios/AXSupport/LanPortConfiguration ➪ Modificado
-	/live/CPEManager/Scenarios/AXSupport/LANPort_Config/LanPortConfigurationFiberHome ➪ Creado
-	 
-	* * **Visualizar servicios de puertos LAN**:  /live/CPEManager/Scenarios/AXSupport/LANPort_Config/LanPortConfigurationGrupo2 ➪ modificado
-    
-	
+  * **Visualizacion de Puertos LAN**:  
+  /live/CPEManager/Scenarios/AXSupport/LanPortConfiguration ➪ Modificado
+	 /live/CPEManager/Scenarios/AXSupport/LANPort_Config/LanPortConfigurationFiberHome ➪ Creado 
 
 ---
 ## Aprovisionamiento de Servicios
