@@ -81,18 +81,18 @@ En estos se encuentran los scripts que le dicen al diagnose params si la opcion 
 	/live/CPEManager/Scenarios/AXSupport/DMZ_Config/ShowDMZConfigurationFiberHome ➪ Creado
 
 	
-	* **Configurar conexion para marcado PPP desde el PC en puerto 1**  
+* **Configurar conexion para marcado PPP desde el PC en puerto 1**  
 	/live/CPEManager/Scenarios/AXSupport/UNE_PortOneBridge_2 ➪ Modificado
 
-	* **Actualizacion de Firmware**  
+* **Actualizacion de Firmware**  
 	Escenario estandar solo es necesario crear el download job en firmware manager
 
-	* **Liberar puertos de Gestion** N/A
-	* **Aprovisionamiento IPTV**
-	* **Solicitar un PING a Internet** Escenario estandar no hubo la necesidad de modificar script
-	* **Cambiar configuracion WLAN** N/A
-  * **Configuracion de  Puertos LAN**: N/A
-  * **Visualizacion de Puertos LAN**:  
+* **Liberar puertos de Gestion** N/A
+* **Aprovisionamiento IPTV** N/A
+* **Solicitar un PING a Internet** Escenario estandar no hubo la necesidad de modificar script
+* **Cambiar configuracion WLAN** N/A
+* **Configuracion de  Puertos LAN**: N/A
+ * **Visualizacion de Puertos LAN**:  
   /live/CPEManager/Scenarios/AXSupport/LanPortConfiguration ➪ Modificado
 	 /live/CPEManager/Scenarios/AXSupport/LANPort_Config/LanPortConfigurationFiberHome ➪ Creado 
 
