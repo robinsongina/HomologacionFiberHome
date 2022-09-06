@@ -1,0 +1,157 @@
+												Matches
+												
+SBSC	OverviewFlow	AXPortal.shortGPVRes		type: onDemand								
+SBSC	MainDiagFlow	AXPortal.shortGPVRes										
+SBSC	LANFlow	AXPortal.shortGPVRes										
+SBSC	LANFlow2	AXPortal.shortGPVRes										
+SBSC	WLANFlow	AXPortal.shortGPVRes										
+SBSC	WANFlow	AXPortal.shortGPVRes										
+SBSC	WANFlow2	AXPortal.shortGPVRes										
+SBSC	VoiceFlow	AXPortal.shortGPVRes										
+SBSC	LogFlow	AXPortal.shortGPVRes										
+SBSC	PingSPV	AXPortal.PingSPV	parameters:[www.google.com]									
+												
+MainDiag	pr: Información del dispositivo											
+												
+	Services	pr: Resumen de Servicios	onHead: True	flow: OverviewFlow		width: 700px						
+		cpe.cpeid	pr: Número de série									
+		cpe.roles	pr: Servicios			mFunction: convert_roles						
+		cpe.version	pr: Versión de software									
+		I.WD.1.XGIC.S	pr: Estado de la Conectividad			match: Up						custom_match: match_fiberHome
+		I.WD.1.XGIC.RP	pr: Potencia de Recepcion			min: -26!,-27		units: db				custom_match: match_fiberHome
+		I.WD.1.XGIC.TP	pr: Potencia de transmision			min: 1!,0.5		units: db				custom_match: match_fiberHome
+		I.WD.1.WCIC.L1DMBR	pr: Ancho de banda actual en Down			min: 150!,100		units: kbit/s				custom_match: match_fiberHome
+		I.LD.1.LEIC.1.S	pr: Puerto LAN 1 - Estado			tFunction: port_status						custom_match: match_fiberHome
+		I.LD.1.LEIC.2.S	pr: Puerto LAN 2 - Estado			tFunction: port_status						custom_match: match_fiberHome
+
+												
+	Image	pr: Imagenes del dispositivo	onHead: True	image: hg552d_front.png			width: 525px	height: 175px	link: http://www.google.com	mouseover: hg552d_back.png		custom_match: match_fiberHome
+												
+	DeviceInfos	flow:MainDiagFlow		pr: Información del dispositivo								
+		cpe.roles	pr: Servicios			mFunction: convert_roles						
+		I.DI.M	pr: Fabricante									
+		I.DI.MN	pr: Modelo									
+		I.DI.SV	pr: Versión de software									
+		I.DI.HV	pr: Versión de hardware									
+		I.DI.UT	pr: Tiempo encendido			mFunction: convert_uptime						
+		cpe.firstMsg	pr: Fecha de primer uso			mFunction: convert_timestamp						
+		I.DI.SN	pr: Número de serie									
+		I.MS.PII	pr: Tiempo entre actualizaciones			units: segundos						
+		cpe.IP	pr: IP de Gestion									
+												
+WANDiag	pr: Información WAN											
+	WANInformation	flow: WANFlow			pr: WAN							
+		I.WD.1.XGIC.S	pr: Estado de la Conectividad			match: Up						custom_match: match_fiberHome
+		I.WD.1.XGIC.RP	pr: Potencia de Recepcion			min: -26!,-27		units: db				custom_match: match_fiberHome
+		I.WD.1.XGIC.TP	pr: Potencia de transmision			min: 1!,0.5		units: db				custom_match: match_fiberHome
+		I.WD.1.WCIC.L1DMBR	pr: Ancho de banda actual en Down			min: 150!,100		units: kbit/s				custom_match: match_fiberHome
+		I.WD.1.WCD.1.WC.1.CS	pr: Estado VLAN 1			match: Connected						custom_match: match_vlan_1
+		I.WD.1.WCD.1.WC.1.N	pr: Vlan 1									custom_match: match_vlan_1
+		I.WD.1.WCD.2.WIC.1.CS	pr: Estado VLAN 2			match: Connected						custom_match: match_vlan_1
+		I.WD.1.WCD.2.WIC.1.N	pr: Vlan 2									custom_match: match_vlan_1
+		I.WD.1.WCD.3.WIC.1.CS	pr: Estado VLAN 3			match: Connected						custom_match: match_vlan_1
+		I.WD.1.WCD.3.WIC.1.N	pr: Vlan 3									custom_match: match_vlan_1
+											
+	WANInformation2	flow: WANFlow2			pr: Informacion conexion WAN							
+		I.WD.1.WCD.1.WC.1.E	pr: Conexión PPP habilitada		match: Habilitada	mFunction: eval_bool						custom_match: match_fiberHome
+		I.WD.1.WCD.1.WC.1.MA	pr: Dirección MAC									custom_match: match_fiberHome
+		I.WD.1.WCD.1.WC.1.EIA	pr: Dirección IP Internet									custom_match: match_fiberHome
+		I.WD.1.WCD.1.WC.1.Us	pr: Usuario PPP									custom_match: match_fiberHome
+		I.WD.1.WCD.1.WC.1.E	pr: Conexión PPP habilitada		match: Habilitada	mFunction: eval_bool						custom_match: match_fiberHome
+									
+												
+LANDiag	pr: Información LAN											
+	LAN	flow: LANFlow										
+		I.LD.1.LEIC.1.S	pr: Puerto LAN 1 - Estado			tFunction: port_status						custom_match: match_leic_1
+		I.LD.1.LEIC.2.S	pr: Puerto LAN 2 - Estado			tFunction: port_status						custom_match: match_leic_2
+		I.LD.1.LHCM.DSE	pr: DHCP Enabled		match: 1	changeFlow: changeDHCPPoolConfig						
+		I.LD.1.LHCM.DLT	pr: Lease Time									
+		I.LD.1.LHCM.MiA	pr: Dirección mínima									
+		I.LD.1.LHCM.MaA	pr: Dirección máxima									
+		I.LD.1.LHCM.II.1.IISM	pr: Máscara de sub red									
+																								
+	HostInfos	flow: LANFlow			pr:Hosts conectados							custom_match: except_hg552d
+		I.LD.1.H.										custom_match: except_hg552d
+												
+	HostInfos	flow: LANFlow2			pr:Hosts conectados							custom_match: match_hg552d
+		I.LD.1.H.										custom_match: match_hg552d
+												
+VoiceSec	pr: Información TOIP											custom_match: match_toip
+	VoiceProfile	flow: VoiceFlow	pr: Perfiles de telefonía									custom_match: match_toip
+		I.WD.1.WCD.2.WIC.1.EIA	pr:  IP de Telefonia									custom_match: match_toip_wcd_4
+		I.WD.1.WCD.2.WIC.1.SM	pr: Mascara de Telefonia									custom_match: match_toip_wcd_4
+		I.WD.1.WCD.2.WIC.1.DG	pr: Puerta de Enlace de Telefonia									custom_match: match_toip_wcd_4
+		smartIndex.I.S.VS._VSIndex_.VP.1.S.PS	pr: Servidor Proxy									custom_match: match_toip
+		smartIndex.I.S.VS._VSIndex_.VP.1.S.PSP	pr: Puerto del Servidor Proxy									custom_match: match_toip
+		smartIndex.I.S.VS._VSIndex_.VP.1.S.RS	pr: Servidor de Registro									custom_match: match_toip
+		smartIndex.I.S.VS._VSIndex_.VP.1.S.RSP	pr: Puerto del Servidor de Registro									custom_match: match_toip
+												
+	VoiceSection	flow: VoiceFlow	pr: Lineas	sectionType: subtree	width:610px							custom_match: match_toip
+		smartIndex.I.S.VS._VSIndex_.VP.1.L.	filter: smartIndex.I.S.VS._VSIndex_.VP.1.L.__AXINDEX__.S									custom_match: match_toip
+		x.E	pr: Perfil habilitado	title: Linea __%s								custom_match: match_toip
+		x.S	pr: Estado del Perfil									custom_match: match_toip
+		x.SI.AUN	pr: Usuario SIP									custom_match: match_toip
+		x.SI.U	pr: SIP URI									custom_match: match_toip
+		x.DN	pr: Numero de linea									custom_match: match_fiberHome
+												
+Log	pr: Log del dispositivo						forbidView: Level1,Level1.5					
+	LogInfoSearch	flow:LogFlow				width: 1000px						
+		I.DI.DL										
+												
+												
+												
+SBSC	GetPingResult	AXPortal.shortGPVRes	parameters:[I.IPD.]	type: onDemand								
+												
+												
+												
+Ping	pr: Chequeo de conectividad 											
+	PingCheck	flow:GetPingResult	pr: Ping Check									
+		I.IPD.ART	pr: Tiempo de respuesta promedio		units: ms							
+		I.IPD.DS	pr: Estado del diagnóstico									
+		I.IPD.H	pr: Host/IP				changeFlow: SetPingHost					
+		I.IPD.MaRT	pr: Tiempo máximo de respuesta		units: ms							
+		I.IPD.MRT	pr: Tiempo mínimo de respuesta		units: ms							
+												
+												
+												
+Scenarios	pr: Escenarios											
+	PortalWorkflows					width: 700px						
+		UNE_ChangeIPLan_2	pr: Cambiar direccion IP LAN				forbidView: Level1,Level1.5					custom_match: match_fiberHome
+		UNE_RoutedPPPoE	pr: Configurar PPPoE Enrutado				forbidView: Level1,Level1.5					custom_match: sc_UNE_RoutedPPPoE
+		# DMZConfiguration	pr: Configuracion DMZ									custom_match: sc_DMZConfiguration
+		DisableDMZConfiguration	pr: Eliminar una Regla DMZ									custom_match: match_hg552d
+		DownloadFirmware	pr: Actualizacion de Firmware									custom_match: sc_DownloadFirmware
+		FactoryReset	pr: Restauracion de la configuracion de fabrica									custom_match: match_fiberHome
+		GetParameterValues	pr: Obtener parametros del dispositivo				forbidView: Level1					
+		Manual_Internet_Reprovision	pr: Ingresar manualmente usuario y contrasena de Internet									
+		Reboot	pr: Reinicializacion el dispositivo									custom_match: match_fiberHome
+		SetParameterValues	pr: Configurar un parametro del dispositivo				forbidView: Level1					
+		LanPortConfiguration2	pr: Configuracion de puertos LAN									custom_match: sc_LanPortConfiguration2
+		LanPortConfigurationSTS	pr: Configuracion de puertos LAN									custom_match: sc_LanPortConfigurationSTS
+		ShowLanPortConfiguration	pr: Visualizar servicio de puertos LAN									custom_match: match_fiberHome
+		changeDHCPPoolConfig	pr: Modificar rango DHCP									custom_match: match_fiberHome
+		# ShowDMZConfiguration	pr: Mostrar configuracion DMZ									custom_match: match_fiberHome
+		# Falta por configurar UNE_PortOneBridge_2	pr: Configurar conexion para marcado PPP desde el PC en puerto 1									custom_match: match_fiberHome
+		UNE_FaxEnable	pr: Habilitar Soporte para Fax y datafono en ToIP									custom_match: sc_UNE_FaxEnable
+		UNE_ReleaseManagePorts	pr: Liberar puertos de Gestion									custom_match: sc_UNE_ReleaseManagePorts
+		UNE_ReleaseManagePorts_2	pr: Liberar puertos de Gestion									custom_match: sc_UNE_ReleaseManagePorts_2
+		IPTV_PortProvisioning	pr: Aprovisionamiento IPTV									custom_match: sc_IPTV_PortProvisioning
+		SetPingHost	pr: Solicitar un PING a Internet									custom_match: match_fiberHome
+		ShowParentalControl	pr: Mostrar reglas de control de padres									custom_match: sc_ShowParentalControl
+		changeParentalFilter	pr: Habilitar/Deshabilitar Control de padres									custom_match: sc_changeParentalFilter
+		ParentalControl	pr: Configurar control de padres									custom_match: sc_ParentalControl
+		ChangeVoice	pr: Habilitar/Deshabilitar perfil de voz				forbidView: Level1					custom_match: sc_ChangeVoice
+												
+Reprovision	pr:  Re-aprovisionar el CPE											
+	Reprovision		type:custom	width:1000px								
+												
+Monitoring	pr: Estadísticas de monitoreo											
+	MonitoringStat		type:custom	width:1000px								
+												
+Jobs	pr: Tareas en ejecución											
+	AX_Changes.jobs					width: 1000px						
+												
+GestionServicios	pr:  Gestion inconsistencias				forbidView: Level1,Level2,Level1.5							
+	GestionServicios		type:custom	width:1000px								
+												
+		# the section has a little job control										

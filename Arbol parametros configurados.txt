@@ -1,0 +1,685 @@
+Arbol con parametros configurados
+
+InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports : HTTP,FTP
+InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports : HTTP,FTP
+InternetGatewayDevice.DeviceInfo.Description : ONU
+InternetGatewayDevice.DeviceInfo.DeviceLog : [INFO] 2022-08-10 12:11:01 :Send event 6 CONNECTION REQUEST [INFO] 2022-08-10 12:11:01 :Rcv method InformResponse [INFO] 2022-08-10 12:11:01 :Rcv method GetParameterValues [INFO] 2022-08-10 12:11:01 :Rcv method GetParameterValues [INFO] 2022-08-10 12:11:02 :Rcv method GetParameterValues [INFO] 2022-08-10 12:11:02 :Rcv method GetParameterValues [INFO] 2022-08-10 12:11:02 :Rcv method GetParameterValues [INFO] 2022-08-10 12:11:02 :Rcv method GetParameterValues [INFO] 2022-08-10 12:11:02 :Rcv method SetParameterValues [INFO] 2022-08-10 12:11:06 :Send event 8 DIAGNOSTICS COMPLETE [INFO] 2022-08-10 12:11:07 :Rcv method InformResponse [INFO] 2022-08-10 12:11:30 :Send event 6 CONNECTION REQUEST [INFO] 2022-08-10 12:11:30 :Rcv method InformResponse [INFO] 2022-08-10 12:11:30 :Rcv method GetParameterValues [INFO] 2022-08-10 12:12:19 :Send event 6 CONNECTION REQUEST [INFO] 2022-08-10 12:12:20 :Rcv method InformResponse [INFO] 2022-08-10 12:12:20 :Rcv method GetParameterValues [INFO] 2022-08-10 12:17:33 :Send event 6 CONNECTION REQUEST [INFO] 2022-08-10 12:17:34 :Rcv method InformResponse [INFO] 2022-08-10 12:17:34 :Rcv method GetParameterValues
+InternetGatewayDevice.DeviceInfo.HardwareVersion : WKE2.134.321B9G
+InternetGatewayDevice.DeviceInfo.Manufacturer : FiberHome
+InternetGatewayDevice.DeviceInfo.ManufacturerOUI : 000AC2
+InternetGatewayDevice.DeviceInfo.ModelName : AN5506-02-B
+InternetGatewayDevice.DeviceInfo.ModemFirmwareVersion : 
+InternetGatewayDevice.DeviceInfo.ProductClass : AN5506-02-B
+InternetGatewayDevice.DeviceInfo.ProvisioningCode : 01
+InternetGatewayDevice.DeviceInfo.SerialNumber : FHTT9B996728
+InternetGatewayDevice.DeviceInfo.SoftwareVersion : RT2821
+InternetGatewayDevice.DeviceInfo.SpecVersion : 1.0
+InternetGatewayDevice.DeviceInfo.UpTime : 11547
+InternetGatewayDevice.DeviceSummary : InternetGatewayDevice:1.1[](Baseline:1,EthernetLAN:1,WANDevice:1,Time:1,IPPing:1,Services:1)
+InternetGatewayDevice.DownloadDiagnostics.BOMTime : 
+InternetGatewayDevice.DownloadDiagnostics.DSCP : 0
+InternetGatewayDevice.DownloadDiagnostics.DiagnosticsState : 
+InternetGatewayDevice.DownloadDiagnostics.DownloadDiagnosticMaxConnections : 0
+InternetGatewayDevice.DownloadDiagnostics.DownloadDiagnosticsMaxIncrementalResult : 0
+InternetGatewayDevice.DownloadDiagnostics.DownloadURL : 
+InternetGatewayDevice.DownloadDiagnostics.EOMTime : 
+InternetGatewayDevice.DownloadDiagnostics.EnablePerConnectionResults : 0
+InternetGatewayDevice.DownloadDiagnostics.EthernetPriority : 0
+InternetGatewayDevice.DownloadDiagnostics.IPAddressUsed : 
+InternetGatewayDevice.DownloadDiagnostics.IncrementalResultNumberOfEntries : 0
+InternetGatewayDevice.DownloadDiagnostics.Interface : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1
+InternetGatewayDevice.DownloadDiagnostics.NumberOfConnections : 0
+InternetGatewayDevice.DownloadDiagnostics.PerConnectionResultNumberOfEntries : 0
+InternetGatewayDevice.DownloadDiagnostics.PeriodOfFullLoading : 0
+InternetGatewayDevice.DownloadDiagnostics.ProtocolVersion : 
+InternetGatewayDevice.DownloadDiagnostics.ROMTime : 
+InternetGatewayDevice.DownloadDiagnostics.TCPOpenRequestTime : 
+InternetGatewayDevice.DownloadDiagnostics.TCPOpenResponseTime : 
+InternetGatewayDevice.DownloadDiagnostics.TestBytesReceived : 1000
+InternetGatewayDevice.DownloadDiagnostics.TestBytesReceivedUnderFullLoading : 0
+InternetGatewayDevice.DownloadDiagnostics.TimeBasedTestDuration : 0
+InternetGatewayDevice.DownloadDiagnostics.TimeBasedTestMeasurementInterval : 0
+InternetGatewayDevice.DownloadDiagnostics.TimeBasedTestMeasurementOffset : 0
+InternetGatewayDevice.DownloadDiagnostics.TotalBytesReceived : 1000
+InternetGatewayDevice.DownloadDiagnostics.TotalBytesReceivedUnderFullLoading : 0
+InternetGatewayDevice.DownloadDiagnostics.TotalBytesSent : 0
+InternetGatewayDevice.DownloadDiagnostics.TotalBytesSentUnderFullLoading : 0
+InternetGatewayDevice.IPPingDiagnostics.AverageResponseTime : 11
+InternetGatewayDevice.IPPingDiagnostics.DSCP : 0
+InternetGatewayDevice.IPPingDiagnostics.DataBlockSize : 4
+InternetGatewayDevice.IPPingDiagnostics.DiagnosticsState : Complete
+InternetGatewayDevice.IPPingDiagnostics.FailureCount : 0
+InternetGatewayDevice.IPPingDiagnostics.Host : www.google.com
+InternetGatewayDevice.IPPingDiagnostics.Interface : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1
+InternetGatewayDevice.IPPingDiagnostics.MaximumResponseTime : 11
+InternetGatewayDevice.IPPingDiagnostics.MinimumResponseTime : 11
+InternetGatewayDevice.IPPingDiagnostics.NumberOfRepetitions : 4
+InternetGatewayDevice.IPPingDiagnostics.SuccessCount : 4
+InternetGatewayDevice.IPPingDiagnostics.Timeout : 1000
+InternetGatewayDevice.LANDevice.1.Hosts.HostNumberOfEntries : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.DuplexMode : Full
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddress : 68:58:11:99:67:28
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddressControlEnabled : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MaxBitRate : 100
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Name : eth1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BroadcastPacketsSent : 3881
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesSent : 403624
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsSent : 3881
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status : NoLink
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.DuplexMode : Full
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MACAddress : 68:58:11:99:67:28
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MACAddressControlEnabled : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MaxBitRate : 100
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Name : eth2
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BroadcastPacketsSent : 3880
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesSent : 403520
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.PacketsSent : 3880
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Status : NoLink
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceNumberOfEntries : 4
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.AllowedMACAddresses : 
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.AssociatedConnection : 
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPConditionalPoolNumberOfEntries : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime : 86400
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPOptionNumberOfEntries : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPRelay : 0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerConfigurable : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddressNumberOfEntries : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DNSServers : 192.168.1.254
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DomainName : 
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceAddressingType : Static
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress : 192.168.1.254
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask : 255.255.255.0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterfaceNumberOfEntries : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters : 192.168.1.254
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MACAddress : 68:58:11:99:67:2c
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MaxAddress : 192.168.1.253
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress : 192.168.1.1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.PassthroughLease : 600
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.PassthroughMACAddress : 
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.ReservedAddresses : 
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.SubnetMask : 255.255.255.0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.UseAllocatedWAN : Normal
+InternetGatewayDevice.LANDevice.1.LANUSBInterfaceNumberOfEntries : 1
+InternetGatewayDevice.LANDevice.1.LANWLANConfigurationNumberOfEntries : 0
+InternetGatewayDevice.LANDeviceNumberOfEntries : 2
+InternetGatewayDevice.Layer3Forwarding.DefaultConnectionService : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANPPPConnection.1
+InternetGatewayDevice.Layer3Forwarding.ForwardNumberOfEntries : 0
+InternetGatewayDevice.ManagementServer.ConnectionRequestPassword : 6oGkwUL6xQ74
+InternetGatewayDevice.ManagementServer.ConnectionRequestURL : http://10.188.7.181:8085/tr069
+InternetGatewayDevice.ManagementServer.ConnectionRequestUsername : 6oGkwUL6xQ74
+InternetGatewayDevice.ManagementServer.EnableCWMP : 1
+InternetGatewayDevice.ManagementServer.ParameterKey : Axess Update parameters
+InternetGatewayDevice.ManagementServer.Password : tr069
+InternetGatewayDevice.ManagementServer.PeriodicInformEnable : 1
+InternetGatewayDevice.ManagementServer.PeriodicInformInterval : 32400
+InternetGatewayDevice.ManagementServer.PeriodicInformTime : 
+InternetGatewayDevice.ManagementServer.URL : http://10.158.38.2:7547/live/CPEManager/genericTR69
+InternetGatewayDevice.ManagementServer.Username : tr069
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.ButtonMap : 0
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.BitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.Codec : G.711ALaw
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.EntryID : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.PacketizationPeriod : 5,10,20,30
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.1.SilenceSuppression : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.BitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.Codec : G.711MuLaw
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.EntryID : 2
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.PacketizationPeriod : 5,10,20,30
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.2.SilenceSuppression : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.BitRate : 5300
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.Codec : G.723.1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.EntryID : 3
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.PacketizationPeriod : 30
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.3.SilenceSuppression : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.4.BitRate : 8000
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.4.Codec : G.729
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.4.EntryID : 4
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.4.PacketizationPeriod : 20,30,40,50,60
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.4.SilenceSuppression : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.5.BitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.5.Codec : G.722
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.5.EntryID : 5
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.5.PacketizationPeriod : 10,20,30,40
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Codecs.5.SilenceSuppression : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.DigitMap : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.FaxPassThrough : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.FaxT38 : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxLineCount : 2
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxProfileCount : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxSessionCount : 4
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.MaxSessionsPerLine : 2
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.ModemPassThrough : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.NumberingPlan : 0
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.RTCP : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.Regions : 
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.RingGeneration : 0
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.EventSubscription : 1
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.Extensions : REFER,NOTIFY,SUBSCRIBE
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.ResponseMap : 0
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.Role : UserAgent
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.Transports : UDP
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.SIP.URISchemes : tel
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.SignalingProtocols : SIP,H.248
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.ToneGeneration : 0
+InternetGatewayDevice.Services.VoiceService.1.Capabilities.VoicePortTests : 1
+InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.InterfaceID : 1
+InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.PhyPort : PORT1
+InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.X_FH_Extend.HookFlashDownTime : 90
+InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.X_FH_Extend.HookFlashUpTime : 650
+InternetGatewayDevice.Services.VoiceService.1.PhyInterface.1.X_FH_Extend.ReversePolePulse : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.DTMFMethod : RFC2833
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.DigitMap : [0-9].|[*#][0-9*#].
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.DigitMapEnable : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Enable : Enabled
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.FaxPassThrough : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.FaxT38.Enable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.CallState : Idle
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.CallingFeatures.CallTransferEnable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.CallingFeatures.CallWaitingEnable : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.CallingFeatures.CallerIDEnable : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.BitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Codec : G.711MuLaw
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Enable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.EntryID : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.PacketizationPeriod : 20
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.Priority : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.1.SilenceSuppression : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.BitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Codec : G.711ALaw
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Enable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.EntryID : 2
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.PacketizationPeriod : 20
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.Priority : 2
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.2.SilenceSuppression : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.BitRate : 5300
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Codec : G.729
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Enable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.EntryID : 3
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.PacketizationPeriod : 20
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.Priority : 3
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.3.SilenceSuppression : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.4.BitRate : 8000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.4.Codec : G.722
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.4.Enable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.4.EntryID : 4
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.4.PacketizationPeriod : 20
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.4.Priority : 4
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.4.SilenceSuppression : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.5.BitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.5.Codec : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.5.Enable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.5.EntryID : 5
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.5.PacketizationPeriod : 20
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.5.Priority : 5
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.List.5.SilenceSuppression : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.ReceiveBitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.ReceiveCodec : G.711MuLaw
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.ReceiveSilenceSuppression : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitBitRate : 64000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitCodec : G.711MuLaw
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitPacketizationPeriod : 20
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Codec.TransmitSilenceSuppression : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.DirectoryNumber : hub1379851166849
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Enable : Enabled
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.AuthPassword : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.AuthUserName : hub1379851166849
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.SIP.URI : hub1379851166849
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.AverageFarEndInterarrivalJitter : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.AverageReceiveInterarrivalJitter : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.AverageRoundTripDelay : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.BytesReceived : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.BytesSent : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.FarEndInterarrivalJitter : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.FarEndPacketLossRate : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.IncomingCallsReceived : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.Overruns : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsLost : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsReceived : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.PacketsSent : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.ReceiveInterarrivalJitter : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.ReceivePacketLossRate : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.ResetStatistics : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.RoundTripDelay : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Stats.Underruns : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.Status : Up
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.EchoCancellationEnable : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.EchoCancellationInUse : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.EchoCancellationTail : 7
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.ReceiveGain : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.VoiceProcessing.TransmitGain : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.conference-uri : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.cw-service : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.dial-tone-pattern : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.hold-service : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.hotline-uri : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.mcid-service : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.no-dialing-behaviour : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Line.1.X_FH_IMS.three-party-service : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.MaxSessions : 3
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Name : VoiceProfile1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.NumberOfLines : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.LocalPortMax : 30000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.LocalPortMin : 20000
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.Redundancy.PayloadType : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.RTP.TelephoneEventPayloadType : 97
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.Reset : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.DSCPMark : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.OutboundProxy : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.OutboundProxyPort : 5060
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.ProxyServer : imsh.une.net.co
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.ProxyServerPort : 5060
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.ProxyServerTransport : UDP
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegisterExpires : 300
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegisterRetryInterval : 60
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrarServer : imsh.une.net.co
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrarServerPort : 5060
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrarServerTransport : UDP
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.RegistrationPeriod : 300
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.TimerT1 : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.TimerT2 : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.TimerT4 : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UseCodecPriorityInSDPResponse : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentDomain : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentPort : 5060
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.UserAgentTransport : UDP
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.VLANIDMark : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_802-1pMark : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_HeartbeatCount : 6
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_HeartbeatCycle : 30
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_HeartbeatSwitch : 1
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_SessionUpdateTimer : 30
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-OutboundProxy : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-OutboundProxyPort : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-ProxyServer : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-ProxyServerPort : 5060
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-ProxyServerTransport : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-RegistrarServer : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-RegistrarServerPort : 5060
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SIP.X_FH_Standby-RegistrarServerTransport : 
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.SignalingProtocol : SIP
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_BusyToneTimer : 40
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_CIDHeadfield : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_CallIdMode : FSK
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_DigitMapMatchMode : Min
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_HangingReminderToneTimer : 60
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_InterDigitTimerLong : 10
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_InterDigitTimerShort : 4
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_NoAnswerTimer : 60
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_ServerType : SIP
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_SnowslideTimer : 30
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_StartDigitTimer : 60
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfile.1.X_FH_TransfercodeEnable : 0
+InternetGatewayDevice.Services.VoiceService.1.VoiceProfileNumberOfEntries : 1
+InternetGatewayDevice.Services.VoiceServiceNumberOfEntries : 1
+InternetGatewayDevice.Time.CurrentLocalTime : (2022, 8, 10, 12, 17, 37.0)
+InternetGatewayDevice.Time.DaylightSavingsEnd : 
+InternetGatewayDevice.Time.DaylightSavingsStart : 
+InternetGatewayDevice.Time.DaylightSavingsUsed : 0
+InternetGatewayDevice.Time.Enable : 1
+InternetGatewayDevice.Time.LocalTimeZone : -05:00
+InternetGatewayDevice.Time.LocalTimeZoneName : (GMT+08:00)
+InternetGatewayDevice.Time.NTPServer1 : 10.158.108.220
+InternetGatewayDevice.Time.NTPServer2 : 2.th.pool.ntp.org
+InternetGatewayDevice.Time.NTPServer3 : 
+InternetGatewayDevice.Time.NTPServer4 : 
+InternetGatewayDevice.Time.NTPServer5 : 
+InternetGatewayDevice.Time.Status : Synchronized
+InternetGatewayDevice.Time.X_FH_NTPServerType : 0
+InternetGatewayDevice.Time.X_NTPInterval : 86400
+InternetGatewayDevice.TraceRouteDiagnostics.DSCP : 0
+InternetGatewayDevice.TraceRouteDiagnostics.DataBlockSize : 0
+InternetGatewayDevice.TraceRouteDiagnostics.DiagnosticsState : 
+InternetGatewayDevice.TraceRouteDiagnostics.Host : 
+InternetGatewayDevice.TraceRouteDiagnostics.Interface : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1
+InternetGatewayDevice.TraceRouteDiagnostics.MaxHopCount : 0
+InternetGatewayDevice.TraceRouteDiagnostics.NumberOfTries : 0
+InternetGatewayDevice.TraceRouteDiagnostics.ResponseTime : 0
+InternetGatewayDevice.TraceRouteDiagnostics.RouteHopsNumberOfEntries : 0
+InternetGatewayDevice.TraceRouteDiagnostics.Timeout : 0
+InternetGatewayDevice.UploadDiagnostics.BOMTime : 
+InternetGatewayDevice.UploadDiagnostics.DSCP : 0
+InternetGatewayDevice.UploadDiagnostics.DiagnosticsState : 
+InternetGatewayDevice.UploadDiagnostics.EOMTime : 
+InternetGatewayDevice.UploadDiagnostics.EnablePerConnectionResults : 0
+InternetGatewayDevice.UploadDiagnostics.EthernetPriority : 0
+InternetGatewayDevice.UploadDiagnostics.IPAddressUsed : 
+InternetGatewayDevice.UploadDiagnostics.IncrementalResultNumberOfEntries : 0
+InternetGatewayDevice.UploadDiagnostics.Interface : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1
+InternetGatewayDevice.UploadDiagnostics.NumberOfConnections : 0
+InternetGatewayDevice.UploadDiagnostics.PerConnectionResultNumberOfEntries : 0
+InternetGatewayDevice.UploadDiagnostics.PeriodOfFullLoading : 0
+InternetGatewayDevice.UploadDiagnostics.ProtocolVersion : 
+InternetGatewayDevice.UploadDiagnostics.ROMTime : 
+InternetGatewayDevice.UploadDiagnostics.TCPOpenRequestTime : 
+InternetGatewayDevice.UploadDiagnostics.TCPOpenResponseTime : 
+InternetGatewayDevice.UploadDiagnostics.TestBytesSent : 0
+InternetGatewayDevice.UploadDiagnostics.TestBytesSentUnderFullLoading : 0
+InternetGatewayDevice.UploadDiagnostics.TestFileLength : 2
+InternetGatewayDevice.UploadDiagnostics.TimeBasedTestDuration : 0
+InternetGatewayDevice.UploadDiagnostics.TimeBasedTestMeasurementInterval : 0
+InternetGatewayDevice.UploadDiagnostics.TimeBasedTestMeasurementOffset : 0
+InternetGatewayDevice.UploadDiagnostics.TotalBytesReceived : 0
+InternetGatewayDevice.UploadDiagnostics.TotalBytesReceivedUnderFullLoading : 0
+InternetGatewayDevice.UploadDiagnostics.TotalBytesSent : 1000
+InternetGatewayDevice.UploadDiagnostics.TotalBytesSentUnderFullLoading : 0
+InternetGatewayDevice.UploadDiagnostics.UploadDiagnosticsMaxConnections : 0
+InternetGatewayDevice.UploadDiagnostics.UploadDiagnosticsMaxIncrementalResult : 10
+InternetGatewayDevice.UploadDiagnostics.UploadTransports : 
+InternetGatewayDevice.UploadDiagnostics.UploadURL : 
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.EnabledForInternet : 1
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate : 2500000000
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate : 1250000000
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.PhysicalLinkStatus : Up
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesReceived : 806936
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesSent : 0
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsReceived : 7759
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent : 0
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessType : GPON
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnectionNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.AutoDisconnectTime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionStatus : Connected
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionTrigger : AlwaysOn
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionType : IP_Routed
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.CurrentMRUSize : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSEnabled : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSOverrideAllowed : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSServers : 190.248.0.1,200.31.208.101
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DefaultGateway : 190.248.0.242
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ExternalIPAddress : 190.250.147.164
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.IdleDisconnectTime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.LastConnectionError : ERROR_NO_ANSWER
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MACAddress : 68:58:11:99:67:2b
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MACAddressOverride : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MaxMRUSize : 1492
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.NATEnabled : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Name : 1_INTERNET_R_VID_200
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPAuthenticationProtocol : AUTO
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPCompressionProtocol : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPEncryptionProtocol : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPoEACName : mde-ame-mx960-4.bng_re1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPoEServiceName : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPoESessionID : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Password : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMappingNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PossibleConnectionTypes : IP_Routed,PPPoE_Bridged,Unconfigured
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RSIPAvailable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RemoteIPAddress : 190.248.0.242
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Reset : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RouteProtocolRx : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ShapingBurstSize : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ShapingRate : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.TransportType : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.UPNPControl : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Uptime : 1215
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Username : cnx-prueba-prueba
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.VLANEnable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.WarnDisconnectDelay : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_Aftr : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_AftrMode : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_DefaultIPv6Gateway : fe80::46aa:50ff:fe6c:bba5
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_Dslite_Enable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPMode : 3
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6ConnStatus : Connecting
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6DNSServers : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6DomainName : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6IPAddress : fe80::413f:9c0b:8eaf:1707/10
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6IPAddressAlias : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6IPAddressOrigin : DHCPv6
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6Prefix : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6PrefixAlias : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6PrefixDelegationEnabled : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6PrefixOrigin : PrefixDelegation
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6PrefixPltime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_IPv6PrefixVltime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_LanInterface : InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1,InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_MulticastVlan : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_FH_ServiceList : INTERNET
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnectionNumberOfEntries : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.X_FH_WANGponLinkConfig.802-1pMark : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.X_FH_WANGponLinkConfig.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.X_FH_WANGponLinkConfig.Mode : 2
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.X_FH_WANGponLinkConfig.VLANID : 200
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.X_FH_WANGponLinkConfig.VLANIDMark : 200
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.X_FH_WANGponLinkConfig.WanIndex : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.AddressingType : DHCP
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ConnectionStatus : Connected
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ConnectionTrigger : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ConnectionType : IP_Routed
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DHCPClient.ReqDHCPOptionNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DHCPClient.SentDHCPOptionNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DNSEnabled : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DNSOverrideAllowed : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DNSServers : 10.158.108.101,0.0.0.0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.DefaultGateway : 10.175.255.1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ExternalIPAddress : 10.175.255.189
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.LastConnectionError : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.MACAddress : 68:58:11:99:67:2c
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.MACAddressOverride : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.MaxMTUSize : 1500
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.NATEnabled : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Name : 2_VOIP_R_VID_410
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.PortMappingNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.PossibleConnectionTypes : IP_Routed,IP_Bridged,Unconfigured
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.RSIPAvailable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Reset : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.RouteProtocolRx : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ShapingBurstSize : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.ShapingRate : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.SubnetMask : 255.255.255.0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.UPNPControl : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.Uptime : 1216
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_Aftr : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_AftrMode : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_DefaultIPv6Gateway : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_Dslite_Enable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPMode : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6ConnStatus : Unconfigured
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6DNSServers : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6DomainName : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6IPAddress : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6IPAddressAlias : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6IPAddressOrigin : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6Prefix : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6PrefixAlias : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6PrefixDelegationEnabled : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6PrefixOrigin : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6PrefixPltime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_IPv6PrefixVltime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_LanInterface : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_MulticastVlan : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnection.1.X_FH_ServiceList : VOIP
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANIPConnectionNumberOfEntries : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.WANPPPConnectionNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.X_FH_WANGponLinkConfig.802-1pMark : 5
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.X_FH_WANGponLinkConfig.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.X_FH_WANGponLinkConfig.Mode : 2
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.X_FH_WANGponLinkConfig.VLANID : 410
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.X_FH_WANGponLinkConfig.VLANIDMark : 410
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.X_FH_WANGponLinkConfig.WanIndex : 2
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.AddressingType : DHCP
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ConnectionStatus : Connected
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ConnectionTrigger : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ConnectionType : IP_Routed
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DHCPClient.ReqDHCPOptionNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DHCPClient.SentDHCPOptionNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DNSEnabled : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DNSOverrideAllowed : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DNSServers : 10.158.108.101,0.0.0.0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DefaultGateway : 10.188.7.1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ExternalIPAddress : 10.188.7.181
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.LastConnectionError : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.MACAddress : 68:58:11:99:67:2d
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.MACAddressOverride : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.MaxMTUSize : 1500
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.NATEnabled : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.Name : 3_TR069_R_VID_69
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.PortMappingNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.PossibleConnectionTypes : IP_Routed,IP_Bridged,Unconfigured
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.RSIPAvailable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.Reset : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.RouteProtocolRx : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ShapingBurstSize : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ShapingRate : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.SubnetMask : 255.255.255.0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.UPNPControl : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.Uptime : 1215
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_Aftr : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_AftrMode : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_DefaultIPv6Gateway : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_Dslite_Enable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPMode : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6ConnStatus : Unconfigured
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6DNSServers : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6DomainName : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6IPAddress : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6IPAddressAlias : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6IPAddressOrigin : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6Prefix : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6PrefixAlias : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6PrefixDelegationEnabled : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6PrefixOrigin : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6PrefixPltime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_IPv6PrefixVltime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_LanInterface : 
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_MulticastVlan : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_FH_ServiceList : TR069
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnectionNumberOfEntries : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANPPPConnectionNumberOfEntries : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.X_FH_WANGponLinkConfig.802-1pMark : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.X_FH_WANGponLinkConfig.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.X_FH_WANGponLinkConfig.Mode : 2
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.X_FH_WANGponLinkConfig.VLANID : 69
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.X_FH_WANGponLinkConfig.VLANIDMark : 69
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.X_FH_WANGponLinkConfig.WanIndex : 3
+InternetGatewayDevice.WANDevice.1.WANConnectionNumberOfEntries : 3
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.BiasCurrent : 13.55
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.RXPower : -22.75
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.BytesReceived : 806936
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.BytesSent : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.DropPackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.FECError : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.HECError : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.PacketsReceived : 7759
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.PacketsSent : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.RBroadcastPackets : 7759
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.RMulticastPackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.RUnicastPackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.RpausePackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.SBroadcastPackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.SMulticastPackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.SUnicastPackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Stats.SpausePackets : 0
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.Status : Up
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.SupplyVoltage : 3.31
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.TXPower : 2.34
+InternetGatewayDevice.WANDevice.1.X_FH_GponInterfaceConfig.TransceiverTemperature : 55.80
+InternetGatewayDevice.WANDeviceNumberOfEntries : 1
+InternetGatewayDevice.X_ACL.Enable : 1
+InternetGatewayDevice.X_ACL.NumberOfRule : 21
+InternetGatewayDevice.X_ACL.Rule.1.Direction : 0
+InternetGatewayDevice.X_ACL.Rule.1.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.1.EndIp : 192.168.1.184
+InternetGatewayDevice.X_ACL.Rule.1.Protocol : HTTPS
+InternetGatewayDevice.X_ACL.Rule.1.StartIp : 192.168.1.184
+InternetGatewayDevice.X_ACL.Rule.10.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.10.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.10.EndIp : 200.13.249.254
+InternetGatewayDevice.X_ACL.Rule.10.Protocol : ssh
+InternetGatewayDevice.X_ACL.Rule.10.StartIp : 200.13.249.1
+InternetGatewayDevice.X_ACL.Rule.11.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.11.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.11.EndIp : 200.13.225.254
+InternetGatewayDevice.X_ACL.Rule.11.Protocol : ssh
+InternetGatewayDevice.X_ACL.Rule.11.StartIp : 200.13.225.1
+InternetGatewayDevice.X_ACL.Rule.12.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.12.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.12.EndIp : 10.158.255.254
+InternetGatewayDevice.X_ACL.Rule.12.Protocol : ssh
+InternetGatewayDevice.X_ACL.Rule.12.StartIp : 10.158.0.1
+InternetGatewayDevice.X_ACL.Rule.13.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.13.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.13.EndIp : 10.159.255.254
+InternetGatewayDevice.X_ACL.Rule.13.Protocol : ssh
+InternetGatewayDevice.X_ACL.Rule.13.StartIp : 10.159.0.1
+InternetGatewayDevice.X_ACL.Rule.14.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.14.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.14.EndIp : 10.166.40.254
+InternetGatewayDevice.X_ACL.Rule.14.Protocol : ssh
+InternetGatewayDevice.X_ACL.Rule.14.StartIp : 10.166.40.1
+InternetGatewayDevice.X_ACL.Rule.2.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.2.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.2.EndIp : 200.13.250.254
+InternetGatewayDevice.X_ACL.Rule.2.Protocol : HTTPS
+InternetGatewayDevice.X_ACL.Rule.2.StartIp : 200.13.250.1
+InternetGatewayDevice.X_ACL.Rule.3.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.3.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.3.EndIp : 200.13.249.254
+InternetGatewayDevice.X_ACL.Rule.3.Protocol : HTTPS
+InternetGatewayDevice.X_ACL.Rule.3.StartIp : 200.13.249.1
+InternetGatewayDevice.X_ACL.Rule.4.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.4.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.4.EndIp : 200.13.225.254
+InternetGatewayDevice.X_ACL.Rule.4.Protocol : HTTPS
+InternetGatewayDevice.X_ACL.Rule.4.StartIp : 200.13.225.1
+InternetGatewayDevice.X_ACL.Rule.5.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.5.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.5.EndIp : 10.158.255.254
+InternetGatewayDevice.X_ACL.Rule.5.Protocol : HTTPS
+InternetGatewayDevice.X_ACL.Rule.5.StartIp : 10.158.0.1
+InternetGatewayDevice.X_ACL.Rule.6.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.6.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.6.EndIp : 10.159.255.254
+InternetGatewayDevice.X_ACL.Rule.6.Protocol : HTTPS
+InternetGatewayDevice.X_ACL.Rule.6.StartIp : 10.159.0.1
+InternetGatewayDevice.X_ACL.Rule.7.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.7.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.7.EndIp : 10.166.40.254
+InternetGatewayDevice.X_ACL.Rule.7.Protocol : HTTPS
+InternetGatewayDevice.X_ACL.Rule.7.StartIp : 10.166.40.1
+InternetGatewayDevice.X_ACL.Rule.8.Direction : 0
+InternetGatewayDevice.X_ACL.Rule.8.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.8.EndIp : 192.168.1.184
+InternetGatewayDevice.X_ACL.Rule.8.Protocol : ssh
+InternetGatewayDevice.X_ACL.Rule.8.StartIp : 192.168.1.184
+InternetGatewayDevice.X_ACL.Rule.9.Direction : 1
+InternetGatewayDevice.X_ACL.Rule.9.Enable : 1
+InternetGatewayDevice.X_ACL.Rule.9.EndIp : 200.13.250.254
+InternetGatewayDevice.X_ACL.Rule.9.Protocol : ssh
+InternetGatewayDevice.X_ACL.Rule.9.StartIp : 200.13.250.1
+InternetGatewayDevice.X_FH_DMZ.NumberOfRule : 0
+InternetGatewayDevice.X_FIB_AGENT.CfgSavePeriod : 10
+InternetGatewayDevice.X_FIB_AGENT.ExternalIPAddress : 10.188.7.181
+InternetGatewayDevice.X_FIB_AGENT.FirstInstallFlag : 1
+InternetGatewayDevice.X_FIB_AGENT.ISPName : COL_MILLICOM
+InternetGatewayDevice.X_FIB_AGENT.Tr069Enable : enable
