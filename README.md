@@ -138,6 +138,45 @@ El firmware Manager tienen 2 politicas
  ➪ modificado
 * **swapService:** cambiar todos los servicios(exc TOIP) de un cpe a otro 
 	
+---
+# Herramientas de Test y Diagnostico
+Este modulo se encuentra en  /live/UneAdmin/ --> Donde los script
+/live/UneAdmin/HTrD --> al dar click en view se abre el portal de HTrD
+
+1. Añadir el modelo(I.DI.MN) en la pestaña configuration - Modelos CPE
+2. Verificar cada uno de los parametros e ir comparando y si es necesario agregar el parametros especifico
+3. Grupos no se modifica.
+
+Webservice
+/live/CPEManager/Interfaces_HTrD/InterfaceMethods
+
+	/live/CPEManager/Interfaces_HTrD/InterfaceMethods/Tools/tr_scenarios ➪ modificado
+	/live/CPEManager/Interfaces_HTrD/InterfaceMethods/Tools/tr_firmwares ➪ modificado
+	/live/CPEManager/Interfaces_HTrD/InterfaceMethods/GetSupportedServices ➪ modificado
+
+Escenarios
+* RT2821__WKE2.134.321B9G__1.0
+* UNE_ChangeIPLan_2     		A
+* UNE_RoutedPPPoE       		N/A
+* DMZConfiguration      		A
+* DownloadFirmware      		A
+* FactoryReset          		A
+* Reboot                		A
+* LanPortConfiguration  		N/A
+* ShowLanPortConfiguration  A
+* ShowDMZConfiguration      A
+* UNE_DmzAsNatRule          N/A
+* UNE_PortOneBridge_2				A
+* UNE_FaxEnable							N/A
+* UNE_ReleaseManagePorts		N/A
+* IPTV_PortProvisioning     N/A
+* SetPingHost								A	
+* ChangeWLAN								N/A
+* ShowParentalControl       N/A
+* changeParentalFilter			N/A
+* ParentalControl						N/A
+* ChangeVoice								N/A
+* VoiceInfos								N/A
 
 ---
 ## Notas Importantes
@@ -147,7 +186,7 @@ El firmware Manager tienen 2 politicas
 	r = container.REQUEST
 	cm = r['CM']
 	cpe = cm.manage_getCPEObjByID(r,'FHTT9B996728')
-	~~~
+  ~~~
 
 * Script creados de ayuda  
   * /live/AXDeviceLib/call_project_specific_pruebas ➪ Script de pruebas para identifica el script que va ejecutar
